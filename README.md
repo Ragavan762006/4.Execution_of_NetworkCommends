@@ -26,7 +26,15 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 
+## Program
+~~~
+from scapy.all import *                                                               
+target = "www.google.com" 
+result, _ = traceroute(target, maxttl=32) 
+print(result)
+~~~
 ## Output
+![Screenshot (298)](https://github.com/Ragavan762006/4.Execution_of_NetworkCommends/assets/144870714/dc824735-8337-49d3-ac7a-db023e9b0ba7)
 
 ## Result
 Thus Execution of Network commands Performed 
